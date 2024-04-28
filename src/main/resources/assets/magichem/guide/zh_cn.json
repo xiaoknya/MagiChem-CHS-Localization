@@ -1,0 +1,1763 @@
+{
+  "Essentia": {
+    "index": "1000",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "精华"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "精华",
+            "color": "dark_purple"
+          },
+          {
+            "text": "是从物体或流体中提取的纯化精华。它是炼金术的最基本部分。精华有十八种类型，每种都带有特定的",
+            "color": "black"
+          },
+          {
+            "text": "符号",
+            "color": "dark_purple"
+          },
+          {
+            "text": "，并分为三个",
+            "color": "black"
+          },
+          {
+            "text": "派别",
+            "color": "dark_purple"
+          },
+          {
+            "text": "，这些精华类型的组合具有相似的主题。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "元素之家",
+            "color": "dark_purple"
+          },
+          {
+            "text": "包含代表大多数魔法师已经熟悉的六种核心魔法亲和力的精华：",
+            "color": "black"
+          },
+          {
+            "text": "末影、大地、水、大气、火焰和奥术",
+            "color": "dark_purple"
+          },
+          {
+            "text": "。除了用于炼金术之外，元素之家的精华还可以在艾得灵熏气过滤器中燃烧，产生少量的艾得灵之力（尽管瓶子在此过程中遗憾地被摧毁）。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "品质之家",
+            "color": "dark_purple"
+          },
+          {
+            "text": "包含描述事物是什么的精华；如果元素之家是名词，那么品质之家就是形容词。品质之家有八个成员：",
+            "color": "black"
+          },
+          {
+            "text": "概念、苍绿、肉质、滋养、腐朽、矿物、锻造和珍贵",
+            "color": "dark_purple"
+          },
+          {
+            "text": "。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "炼金之家",
+            "color": "dark_purple"
+          },
+          {
+            "text": "包含四种神秘的精华类型，代表着不断提升的力量和对点金石的探索：",
+            "color": "black"
+          },
+          {
+            "text": "黑色、白色、黄色和红色",
+            "color": "dark_purple"
+          },
+          {
+            "text": "。",
+            "color": "black"
+          }
+        ]
+      }
+    ],
+    "related_recipes": []
+  },
+  "Admixtures": {
+    "index": "1001",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "混合物"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "混合物",
+            "color": "dark_purple"
+          },
+          {
+            "text": "是不同精华的组合，代表着更高级别的主题或思想。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "混合物可以由两到五种不同类型的精华组成，总是包括元素之家和品质之家至少一种精华类型，永远不包括炼金之家的精华。有些混合物甚至可以包含其他混合物。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "混合物可以通过蒸馏物体和流体，或通过炼金术过程中的固定作用将精华组合而成。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "术语“",
+            "color": "black"
+          },
+          {
+            "text": "物质",
+            "color": "dark_purple"
+          },
+          {
+            "text": "”用于指代既可以是精华也可以是混合物的东西。",
+            "color": "black"
+          }
+        ]
+      }
+    ],
+    "related_recipes": []
+  },
+  "Process: Distillation": {
+    "index": "1106",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "过程：蒸馏"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "蒸馏",
+            "color": "dark_purple"
+          },
+          {
+            "text": "是将物体或流体分解成组成它的物质（即精华和混合物）的过程。基本的蒸馏是在"
+          },
+          {
+            "text": "蒸馏器",
+            "color": "dark_purple"
+          },
+          {
+            "text": "中进行的。\n\n能够进行蒸馏的设备具有"
+          },
+          {
+            "text": "效率",
+            "color": "dark_purple"
+          },
+          {
+            "text": "评级，该评级确定您成功蒸馏物体或流体所含每滴物质的机会。效率始终以百分比表示，效率大于100％不会产生额外的影响。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "crafting",
+        "location": "magichem:shaped/alembic"
+      },
+      {
+        "type": "manaweaving-altar",
+        "location": "magichem:manaweaving/distillery"
+      }
+    ]
+  },
+  "Alembic": {
+    "index": "1200",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "蒸馏器"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "蒸馏器",
+            "color": "dark_purple"
+          },
+          {
+            "text": "是一种简单的设备，能够进行"
+          },
+          {
+            "text": "蒸馏",
+            "color": "dark_purple"
+          },
+          {
+            "text": "。\n\n该设备只会在放置在点燃的熔炉、烟熏炉或高炉上方时处理物品。\n\n如果燃料有限，蒸馏器可以用"
+          },
+          {
+            "text": "火焰伤害法术",
+            "color": "dark_purple"
+          },
+          {
+            "text": "点燃。"
+          }
+        ]
+      },
+      {
+        "type": "title",
+        "value": "GUI"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "最左侧的高槽位用于流体，目前未实现。",
+            "italic": true
+          },
+          {
+            "text": "\n\n在其左侧的三个槽位用于输入物品，可以是任何物品，但不能是物质。放置在这些槽位中的物品将逐一处理，从最底部的槽位到最顶部的槽位。\n\n在处理槽位右侧的九个槽位中存放蒸馏的物质，只有当顶部的槽位中有瓶子时才能从机器中提取出来。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "crafting",
+        "location": "magichem:shaped/alembic"
+      }
+    ]
+  },
+  "Magic Circles": {
+    "index": 1270,
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "魔法圆环"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "炼金术师艺术的更复杂设备需要一个"
+          },
+          {
+            "text": "魔法圆环",
+            "color": "dark_purple"
+          },
+          {
+            "text": "，这是一圈魔法银制成的环，可以将创造能量和物质聚焦到期望的结果上。\n\n魔法圆环由"
+          },
+          {
+            "text": "虹彩银",
+            "color": "dark_purple"
+          },
+          {
+            "text": "制成，这是一种由嬗变银、嵌合石以及在织魔祭坛上制造的一些混合物合成的炼金合金。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "manaweaving_altar",
+        "location": "magichem:manaweaving/iris_argenti"
+      },
+      {
+        "type": "crafting",
+        "location": "magichem:shaped/magic_circle"
+      }
+    ]
+  },
+  "Circle of Fabrication": {
+    "index": "1401",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "制造圆环"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "制造圆环",
+            "color": "dark_purple"
+          },
+          {
+            "text": "利用物质来创建方块和物品。制造之环需要"
+          },
+          {
+            "text": "FE（锻造能量）",
+            "color": "dark_purple"
+          },
+          {
+            "text": "来运作。"
+          }
+        ]
+      },
+      {
+        "type": "recipe",
+        "location": "magichem:shaped/circle_fabrication",
+        "recipeType": "crafting"
+      },
+      {
+        "type": "title",
+        "value": "GUI"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "在最左侧有一个面板，有十五个槽位，用于选择您希望制造圆环制作的物品。在面板顶部的黑色条上键入可以过滤显示哪些配方。一旦选择了一个配方，它就会出现在中央的炼金三角形下方，并且在右下方会出现第二个面板，显示每个制作所需的物质。\n\n中央的炼金三角形代表当前工艺的进度，随着过程接近完成而填充。\n\n在炼金三角形的左侧有十个用于输入物质的槽位。当选择一个配方时，将为配方所需的每种物质保留两个槽位，其他类型的物质不能插入。\n\n在右上方，您可以设置制造圆环所需的FE使用量；随着功率使用量的增加，制造圆环执行每个制作操作所需的时间就会减少。更改所需的功率使用量将重置当前制作操作的进度。\n\n每当制造之环创建一个方块或物品时，所有使用的物质都会被消耗，并且瓶子会返回到瓶子输出槽位。如果瓶子输出槽位空间不足，则制造圆环不会开始制作，直到有足够的空间。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "crafting",
+        "location": "magichem:shaped/magic_circle"
+      },
+      {
+        "type": "crafting",
+        "location": "magichem:shaped/circle_power"
+      }
+    ]
+  },
+  "Circle of Power": {
+    "index": "1402",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "供能圆环"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "供能圆环在提供至少一种"
+          },
+          {
+            "text": "试剂",
+            "color": "dark_purple"
+          },
+          {
+            "text": "的情况下生成FE"
+          },
+          {
+            "text": "（锻造能量）",
+            "color": "dark_purple"
+          },
+          {
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "type": "recipe",
+        "location": "magichem:shaped/circle_power",
+        "recipeType": "crafting"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "试剂的燃烧时间取决于其等级。在燃烧时间结束后，供能圆环会排出一种废物，可以通过构造重新加工成试剂。第二等级有一个试剂可用，第三等级、第四等级和第五等级各有一个额外的试剂可用。\n\n默认情况下，每提供一个额外的试剂给供能圆环，其发电量会增加十二倍。发电量是基于存在的试剂数量而不是特定试剂的。例如，提供前两个试剂会比仅提供第四个试剂产生更多的能量。\n\n供能圆环最多生成三个刻的FE。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": []
+  },
+  "Grains of Transmuted Silver": {
+    "index": "1404",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "嬗变银粉末"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "嬗变银粉末",
+            "color": "dark_purple"
+          },
+          {
+            "text": "是供能圆环中使用的最基本的能量生成试剂。当达到等阶2，可以通过让一个构装体粉碎一个嬗变银来制作嬗变银粉末。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "这些粉末具有非常短的燃烧时间，并排出一个",
+            "color": "black"
+          },
+          {
+            "text": "银灰碎块",
+            "color": "dark_purple"
+          },
+          {
+            "text": "作为废物。",
+            "color": "black"
+          }
+        ]
+      },
+      {
+        "type": "title",
+        "value": "再处理"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "银灰碎块可以被一个构装体粉碎回嬗变银粉末。",
+            "color": "black"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "crafting",
+        "location": "magichem:shaped/circle_power"
+      }
+    ]
+  },
+  "Focusing Catalyst": {
+    "index": "1405",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "聚焦催化剂"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "聚焦催化剂",
+            "color": "dark_purple"
+          },
+          {
+            "text": "是在供能圆环中使用的一种更高级的能量生成试剂。当达到等阶3，可以通过在符文铁砧上将一块嬗变银打成一个",
+            "color": "black"
+          },
+          {
+            "text": "催化剂核心",
+            "color": "dark_purple"
+          },
+          {
+            "text": "来制作聚焦催化剂，而催化棒核心则可以通过进行",
+            "color": "black"
+          },
+          {
+            "text": "杖环仪式",
+            "color": "dark_purple"
+          },
+          {
+            "text": "来制作。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "这种催化剂具有适度的燃烧时间，并排出一个",
+            "color": "black"
+          },
+          {
+            "text": "扭曲聚焦催化剂",
+            "color": "dark_purple"
+          },
+          {
+            "text": "作为废物。",
+            "color": "black"
+          }
+        ]
+      },
+      {
+        "type": "title",
+        "value": "再处理"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "一个构装体可以将一个扭曲聚焦催化剂粉碎开来，将",
+            "color": "black"
+          },
+          {
+            "text": "废弃催化剂核心",
+            "color": "dark_purple"
+          },
+          {
+            "text": "与",
+            "color": "black"
+          },
+          {
+            "text": "催化剂外壳",
+            "color": "dark_purple"
+          },
+          {
+            "text": "分开。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "一个废弃的催化剂核心可以通过在符文锻炉中将其熔炼来重新充电成催化剂核心。这个操作比通常熔炼一个物体所需的时间要长得多。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "一旦催化剂核心被重新充电，您可以通过在符文铁砧上将催化剂外壳打入其中来将其转换回聚焦催化剂。",
+            "color": "black"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "ritual",
+        "location": "magichem:rituals/reagent_2_crafting"
+      }
+    ]
+  },
+  "Power Spikes": {
+    "index": "1403",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "能量尖峰"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "能量尖峰",
+            "color": "dark_purple"
+          },
+          {
+            "text": "可以用来将锻造能量（FE）从"
+          },
+          {
+            "text": "供能圆环",
+            "color": "dark_purple"
+          },
+          {
+            "text": "传输到其他设备。您可以通过在潜行状态下将能量尖峰用于供能圆环来将其绑定到该供能圆环上。\n\n只要绑定的供能圆环在加载的区块中，能量尖峰就可以将能量插入到任何设备中，而且没有范围限制。能量尖峰只能从供能圆环中吸取能量。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "crafting",
+        "location": "magichem:shaped/circle_power"
+      }
+    ]
+  },
+  "Superheated Glass Panes": {
+    "index": 0,
+    "category": "artifice",
+    "sections": [
+      {
+        "type": "title",
+        "value": "超热玻璃板"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "尽管一个决心坚定的符文工匠（或一个构装体）可以在符文铁砧上高效地制造瓶子，但这个过程总是可以改进的。\n在符文熔炉中加热玻璃板，然后在铁砧上加工它们，可以将所需的敲击次数从四次减少到一次。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "arcane_furnace",
+        "location": "magichem:arcanefurnace/superheated_glass_pane"
+      }
+    ]
+  },
+  "Ritual of the Rod and Circle": {
+    "index": "1000",
+    "category": "rituals",
+    "sections": [
+      {
+        "type": "title",
+        "value": "杖环仪式"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "这个仪式将煤、紫水晶和几种不同种类的物质绑定在一起，形成一个"
+          },
+          {
+            "text": "催化剂核心",
+            "color": "dark_purple"
+          },
+          {
+            "text": "，这是"
+          },
+          {
+            "text": "聚焦催化剂",
+            "color": "dark_purple"
+          },
+          {
+            "text": "的必要组成部分。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "ritual",
+        "location": "magichem:rituals/reagent_2_crafting"
+      }
+    ]
+  },
+  "Centrifuge": {
+    "index": "1203",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "离心机"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "离心机",
+            "color": "dark_purple"
+          },
+          {
+            "text": "是一种高级设备，能够进行",
+            "color": "black"
+          },
+          {
+            "text": "分离",
+            "color": "dark_purple"
+          },
+          {
+            "text": "操作。",
+            "color": "black"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "设备的一个角落有一个银色的齿轮，可以转动来操作设备，可以手动操作，也可以通过设置一个构装体来",
+            "color": "black"
+          },
+          {
+            "text": "激活",
+            "color": "dark_purple"
+          },
+          {
+            "text": "该方块，或者用赋灵粉撒上可运作十分钟。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "设备的两个角落有",
+            "color": "black"
+          },
+          {
+            "text": "元素激活器",
+            "color": "dark_purple"
+          },
+          {
+            "text": "端口，如果您希望使用艾得灵之力来增强设备。",
+            "color": "black"
+          }
+        ]
+      },
+      {
+        "type": "title",
+        "value": "GUI"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "设备中央的大槽位用于容纳当前正在处理的混合物。在其左侧的三个槽位用于输入物品，可以是任何混合物。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "直接位于处理槽位上方的是一个瓶子槽位。每当离心机处理一个混合物时，其瓶子将被插入到这个槽位中。如果没有足够的空间插入另一个瓶子，机器将停止工作，直到有足够的空间为止。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "在处理槽位右侧的九个槽位中存放着分离出的物质，只有当单个槽位中存在瓶子时，才能从机器中提取出分离出的物质。",
+            "color": "black"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "manaweaving_altar",
+        "location": "magichem:manaweaving/centrifuge"
+      }
+    ]
+  },
+  "Process: Fixation": {
+    "index": "1103",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "过程：固定"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "固定",
+            "color": "dark_purple"
+          },
+          {
+            "text": "是将组件物质组合成新的混合物的过程。基本的固定是在熔炉中进行的。",
+            "color": "black"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "manaweaving_altar",
+        "location": "magichem:manaweaving/fusery"
+      }
+    ]
+  },
+  "Process: Separation": {
+    "index": "1108",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "过程：分离"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "分离",
+            "color": "dark_purple"
+          },
+          {
+            "text": "是将一个混合物分解为组成它的物质（即本质或其他混合物）。基本的分离操作是在"
+          },
+          {
+            "text": "离心机",
+            "color": "dark_purple"
+          },
+          {
+            "text": "上执行的。\n\n能够进行分离的设备具有"
+          },
+          {
+            "text": "效率",
+            "color": "dark_purple"
+          },
+          {
+            "text": "评级，该评级决定了您成功分离混合物中每一份物质的几率。效率始终以百分比表示，效率大于100％则没有额外效果。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "manaweaving_altar",
+        "location": "magichem:manaweaving/centrifuge"
+      }
+    ]
+  },
+  "Fusery": {
+    "index": "1205",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "固定器"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "固定器",
+            "color": "dark_purple"
+          },
+          {
+            "text": "是一种高级设备，能够进行",
+            "color": "black"
+          },
+          {
+            "text": "固定",
+            "color": "dark_purple"
+          },
+          {
+            "text": "操作。",
+            "color": "black"
+          }
+        ]
+      },
+      {
+        "type": "title",
+        "value": "GUI"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "在设备的最左侧有一个面板，有十五个槽位，用于选择您希望固定器制作的物品。在面板顶部的黑色条上输入可以过滤显示哪些配方。一旦选择了一个配方，它就会出现在中央的炼金固定符号下方，并且在右下方会出现第二个面板，显示每个制作所需的物质。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "中央的炼金固定符号代表当前工艺的进度，随着过程接近完成而填充。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "在炼金固定符号的左侧有十个用于输入物质的槽位。当选择一个配方时，将为配方所需的每种物质保留两个槽位，其他类型的物质不能插入。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "每当固定器创建一个混合物时，所有使用的物质都会被消耗，并且瓶子会被推到炼金固定符号上方的瓶子输出槽位。如果瓶子输出槽位空间不足，多余的瓶子将被弹出到世界中。",
+            "color": "black"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "manaweaving_altar",
+        "location": "magichem:manaweaving/fusery"
+      }
+    ]
+  },
+  "Elemental Actuators": {
+    "index": "1300",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "元素执行器"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "元素执行器",
+            "color": "dark_purple"
+          },
+          {
+            "text": "是一种设备，它消耗艾得灵之力（和其他试剂）以增强炼金设备的功能。蒸馏器太简单和粗糙，无法利用元素执行器，但所有其他设备至少有两个端口可以插入元素执行器。\n\n将多个副本的元素执行器插入同一设备中没有效果；只有一个执行器会对目标设备产生任何效果。\n\n使用大地、水、空气和火焰艾得灵之力的元素执行器可以在等阶3制作，而使用奥术和末影艾得灵之力的元素执行器可以在等阶4制作。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "manaweaving_altar",
+        "location": "magichem:manaweaving/temp_actuator_fire"
+      },
+      {
+        "type": "manaweaving_altar",
+        "location": "magichem:manaweaving/temp_actuator_water"
+      },
+      {
+        "type": "manaweaving_altar",
+        "location": "magichem:manaweaving/temp_actuator_earth"
+      }
+    ]
+  },
+  "Quake Refinery": {
+    "index": "1301",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "地震精炼器"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "地震精炼器",
+            "color": "dark_purple"
+          },
+          {
+            "text": "是一种使用大地艾得灵之力的元素执行器。它还必须提供沙子，每次操作都会消耗一些沙子。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "当被地震精炼器修改的设备完成一个操作时，产生的污垢会减少并储存在精炼器内部庞大的内部缓冲区中。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "部分减少的污垢会变成稀薄废物而不是炼金废物。震荡精炼器不需要清理；废物可以直接提取。",
+            "color": "black"
+          }
+        ]
+      },
+      {
+        "type": "title",
+        "value": "GUI"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "最左侧的刻度表让您告诉地震精炼器每个周期要使用多少艾得灵之力。其右边的大地元素符号显示了直到下次消耗更多艾得灵之力还有多少时间。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "在其右侧，一个细长的刻度表显示了当前存储在地震精炼器内部的污垢量。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "在界面的中央有三个物品槽。顶部的刻度表接受沙子，沙子会进入内部缓冲区。每当连接的设备完成一个操作时，沙子都会被消耗掉。在沙子槽的下方是两个槽，用于存放地震精炼器的污垢缓冲区中的炼金废料和稀精炼废料。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "在其右侧，一个细长的刻度表显示了当前存储在地震精炼器内部缓冲区的沙子量。",
+            "color": "black"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "manaweaving_altar",
+        "location": "magichem:manaweaving/temp_actuator_earth"
+      }
+    ]
+  },
+  "Deluge Purifier": {
+    "index": "1302",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "洪流净化器"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "洪流净化器",
+            "color": "dark_purple"
+          },
+          {
+            "text": "是一种使用水艾得灵之力的元素执行器。它还必须提供水，每次操作都会消耗一些水。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "被洪流净化器修改的设备受益于提高的效率。",
+            "color": "black"
+          }
+        ]
+      },
+      {
+        "type": "title",
+        "value": "GUI"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "最左侧的刻度表让您告诉洪流净化器每个周期要使用多少艾尔德林能量。其右边的水元素符号显示了直到下次消耗更多艾得灵之力还有多少时间。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "在其右侧，一个宽且高的刻度表作为水的储存罐，每个艾得灵之力周期都会消耗一些水。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "在其右侧，一个细长的刻度表显示了设备中",
+            "color": "black"
+          },
+          {
+            "text": "蒸汽",
+            "color": "dark_purple"
+          },
+          {
+            "text": "的累积量。每当目标设备完成一个操作时，洪流净化器会产生一些蒸汽。蒸汽可以被",
+            "color": "black"
+          },
+          {
+            "text": "烈风增压器",
+            "color": "dark_purple"
+          },
+          {
+            "text": "使用。如果蒸汽刻度表已满，则机器不会受到任何负面影响，并且多余的蒸汽会无害地排出。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "界面的右侧区域显示了目标设备的效率增加了多少，以及每个周期消耗的艾得灵之力的当前量。",
+            "color": "black"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "manaweaving_altar",
+        "location": "magichem:manaweaving/temp_actuator_water"
+      }
+    ]
+  },
+  "Inferno Engine": {
+    "index": "1303",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "地狱引擎"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "地狱引擎",
+            "color": "dark_purple"
+          },
+          {
+            "text": "是一种使用火焰艾得灵之力的元素执行器。它可以选择性地提供燃料物品，以增加设备的效率。\n\n当修改一个使用FE的炼金设备时，设备的FE使用量会减少。而不使用FE的设备则会减少其操作时间。\n\n地狱引擎还会持续运行蒸馏机、离心机或固定器。"
+          }
+        ]
+      },
+      {
+        "type": "title",
+        "value": "GUI"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "最左侧的刻度表让您告诉地狱引擎每个周期要使用多少艾得灵之力。其右边的火焰元素符号显示了直到下次消耗更多艾得灵之力还有多少时间。\n\n在其右侧，一个槽可以填充燃料物品，以增强设备的效率。槽上方的波浪状气体显示了当前燃料物品剩余的时间，就像普通的熔炉一样。\n\n在其右侧，一个细长的刻度表显示了设备中"
+          },
+          {
+            "text": "烟雾",
+            "color": "dark_purple"
+          },
+          {
+            "text": "的累积量。每当目标设备完成一个操作时，地狱引擎会产生一些烟雾。烟雾可以被"
+          },
+          {
+            "text": "烈风增压器",
+            "color": "dark_purple"
+          },
+          {
+            "text": "使用。如果烟雾刻度表已满，则机器不会受到任何负面影响，并且多余的烟雾会无害地排出。\n\n界面的右侧区域显示了地狱引擎提供了多少FE或操作时间减少，以及每个周期消耗的艾得灵之力的当前量。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "manaweaving_altar",
+        "location": "magichem:manaweaving/temp_actuator_fire"
+      }
+    ]
+  },
+  "Gale Pressurizer": {
+    "index": "1304",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "烈风增压器"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "烈风增压器",
+            "color": "dark_purple"
+          },
+          {
+            "text": "是一种使用大气艾得灵之力的元素执行器。\n\n当修改一个炼金设备时，烈风增压器会"
+          },
+          {
+            "text": "增加可以同时处理的物品数量",
+            "color": "dark_purple"
+          },
+          {
+            "text": "，但会增加设备的操作时间（或者如果设备使用FE，则增加其能源消耗）。\n\n烈风增压器只有3个可能的能源消耗设置。如果设置为中间能源设置，则必须为其提供"
+          },
+          {
+            "text": "蒸汽",
+            "color": "dark_purple"
+          },
+          {
+            "text": "（洪流净化器的副产品）或"
+          },
+          {
+            "text": "烟雾",
+            "color": "dark_purple"
+          },
+          {
+            "text": "（地狱引擎的副产品）才能运行。如果设置为最高能源设置，则必须同时提供两种。"
+          }
+        ]
+      },
+      {
+        "type": "title",
+        "value": "GUI"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "最左侧的刻度表让您告诉烈风增压器每个周期要使用多少艾得灵之力。其右边的空气元素符号显示了直到下次消耗更多艾得灵之力还有多少时间。\n\n在其右侧，有两个液体储罐。左边的储罐存放"
+          },
+          {
+            "text": "烟雾",
+            "color": "dark_purple"
+          },
+          {
+            "text": "，右边的储罐存放"
+          },
+          {
+            "text": "蒸汽",
+            "color": "dark_purple"
+          },
+          {
+            "text": "。\n\n界面的右侧区域显示了当前批次大小的倍数，连接设备的FE或操作时间增加了多少，以及每个周期消耗的蒸汽和烟雾的当前量，以及每个周期消耗的艾得灵之力的当前量。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "manaweaving_altar",
+        "location": "magichem:manaweaving/temp_actuator_air"
+      }
+    ]
+  },
+  "Grime": {
+    "index": "1211",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "污垢"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "在炼金设备运行时，会积累"
+          },
+          {
+            "text": "污垢",
+            "color": "dark_purple"
+          },
+          {
+            "text": "。成功的操作会产生比失败的操作更多的污垢，当设备积累超过其50%的污垢容量时，设备的效率会降低，并且操作时间更长。\n\n可以使用"
+          },
+          {
+            "text": "清洁刷",
+            "color": "dark_purple"
+          },
+          {
+            "text": "手动清洁设备，也可以使用绑定到统御星锥中的"
+          },
+          {
+            "text": "清洁炼金设备",
+            "color": "dark_purple"
+          },
+          {
+            "text": "任务的构装体自动清洁设备。\n\n清洁设备会产生炼金废料。目前炼金废料没有用处，但它是构装体的最爱。您可以根据这些信息做出相应的决定。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "crafting",
+        "location": "magichem:shaped/cleaning_brush"
+      }
+    ]
+  },
+  "Command: Sort Materia": {
+    "index": "4",
+    "category": "constructs",
+    "sections": [
+      {
+        "type": "title",
+        "value": "指令：整理物质"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "该指令将使一个构装体从炼金设备中提取物质，并尝试将其放置在指定区域内的物质容器中。\n\n在清空炼金设备时，构装体总是首先从最大堆中取出物质。\n\n该指令需要一个"
+          },
+          {
+            "text": "流体喷嘴手臂",
+            "color": "dark_purple"
+          },
+          {
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": []
+  },
+  "Command: Clean Alchemical Device": {
+    "index": "4",
+    "category": "constructs",
+    "sections": [
+      {
+        "type": "title",
+        "value": "指令：清洁炼金设备"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "该指令将使构装体使用内部储存的水来清洁目标位置上的炼金设备上的污垢。\n\n它需要一个"
+          },
+          {
+            "text": "流体喷嘴臂",
+            "color": "dark_purple"
+          },
+          {
+            "text": "和一个"
+          },
+          {
+            "text": "装满水的储罐躯干",
+            "color": "dark_purple"
+          },
+          {
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": []
+  },
+  "Command: Study": {
+    "index": "4",
+    "category": "constructs",
+    "sections": [
+      {
+        "type": "title",
+        "value": "指令：学习"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "该指令将使一个构装体研究"
+          },
+          {
+            "text": "它手中的任何东西",
+            "color": "dark_purple"
+          },
+          {
+            "text": "，尽力"
+          },
+          {
+            "text": "从提供的材料中学习",
+            "color": "dark_purple"
+          },
+          {
+            "text": "。不幸的是，构装体的小脑袋不擅长保留信息；它只是转化为"
+          },
+          {
+            "text": "经验球",
+            "color": "dark_purple"
+          },
+          {
+            "text": "，溢出到地板上。\n\n构装体必须持有适当的学习材料（如书籍、奥秘法典、撕裂的日记片段或论文），才能进行学习。学习材料在学习过程中被摧毁。简单的学习材料产生的经验球比更稀有或更难获取的学习材料产生的经验球要小。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": []
+  },
+  "Command: Gather Experience": {
+    "index": "4",
+    "category": "constructs",
+    "sections": [
+      {
+        "type": "title",
+        "value": "指令：收集经验"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "该指令将使构装体在定义的区域内搜索经验球，利用流体喷嘴将它们吸入，并将它们存储为学术浆液。\n\n它需要一个"
+          },
+          {
+            "text": "液体喷嘴臂",
+            "color": "dark_purple"
+          },
+          {
+            "text": "和一个"
+          },
+          {
+            "text": "储罐躯干",
+            "color": "dark_purple"
+          },
+          {
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": []
+  },
+  "Condition: Check Vessel Fill": {
+    "index": "4",
+    "category": "constructs",
+    "sections": [
+      {
+        "type": "title",
+        "value": "条件：检查容器填充"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "该条件将检查物质容器的"
+          },
+          {
+            "text": "内容是否超过给定百分比",
+            "color": "dark_purple"
+          },
+          {
+            "text": "，如果是，则返回"
+          },
+          {
+            "text": "成功",
+            "color": "dark_green"
+          },
+          {
+            "text": "；如果不是，则返回"
+          },
+          {
+            "text": "失败",
+            "color": "dark_red"
+          },
+          {
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": []
+  },
+  "Condition: Has Grime Level": {
+    "index": "4",
+    "category": "constructs",
+    "sections": [
+      {
+        "type": "title",
+        "value": "条件：具有污垢水平"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "该条件将"
+          },
+          {
+            "text": "检查炼金设备的内部污垢是否达到了特定百分比",
+            "color": "dark_purple"
+          },
+          {
+            "text": "，如果是，则返回"
+          },
+          {
+            "text": "成功",
+            "color": "dark_green"
+          },
+          {
+            "text": "；如果不是，则返回"
+          },
+          {
+            "text": "失败",
+            "color": "dark_red"
+          },
+          {
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": []
+  },
+  "Materia Vessel": {
+    "index": "1210",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "物质容器"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "物质容器是一种具有魔法的玻璃罐，能够容纳大量的物质。您可以通过右键点击物质瓶将物质插入其中，然后通过右键点击空瓶子提取其中的内容。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "查看物质容器将显示其内容的名称、其炼金配方、当前存储量和最大容量。在默认配置下，含有物质的物质容器的存储量是含有混合物的物质容器的两倍。",
+            "color": "black"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "含有物质的物质容器还会在罐子的前面显示一个物质标签，以便轻松参考。",
+            "color": "black"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "manaweaving_altar",
+        "location": "magichem:manaweaving/materia_vessel"
+      }
+    ]
+  },
+  "Distillery": {
+    "index": "1201",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "蒸馏机"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "作为蒸馏器的改进，蒸馏机是蒸馏的高级形式，具有稍微提高的效率。\n\n与蒸馏器不同，蒸馏器内置了熔炉，如果提供燃料，可以自己提供热量。即使没有要处理的物品，蒸馏器也会燃烧燃料。\n\n如果您希望使用艾得灵之力增强设备，则设备的侧面具有元素执行器端口。\n\n与蒸馏器一样，蒸馏机可以被火焰伤害法术点燃。"
+          }
+        ]
+      },
+      {
+        "type": "title",
+        "value": "GUI"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "最左侧的高大槽位用于液体，目前尚未实现。",
+            "italic": true
+          },
+          {
+            "text": "\n\n左侧的六个槽位用于放置输入物品，可以是任何非物质物品。放置在这些槽位中的物品将依次处理，从最下面的槽位到最上面的槽位。设备中心的大槽位用于容纳当前正在处理的物品。其左侧的三个槽位也用于放置输入物品，可以是任何非物质物品。\n\n在处理槽位右侧的十八个槽位中存放着蒸馏的物质，只有在顶部的槽位中存在瓶子时，才能从机器中提取。\n\n在底部有一个单独的槽位，可以插入燃料物品。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "manaweaving-altar",
+        "location": "magichem:manaweaving/distillery"
+      }
+    ]
+  },
+  "Alchemical Waste": {
+    "index": "1212",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "炼金废料"
+      },
+      {
+        "type": "item",
+        "location": "magichem:alchemical_waste",
+        "scale": 2
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "当炼金设备中的污垢被清理出来时，会产生一种令人不快、有臭味的残留物，称为"
+          },
+          {
+            "text": "炼金废料",
+            "color": "dark_purple"
+          },
+          {
+            "text": "。\n\n这种恶臭的残留物几乎没有什么实用价值。值得注意的是，它与记忆混合物反应良好，可以制作出一种药剂，使一位有企图心的炼金术士能够从失败中吸取教训。\n\n处理炼金废物的安全方法并不多，但将其喂给一个饥饿的构装体已被证明是安全且有效的方法。更重要的是，炼金废物是全世界构装体的至爱美食之一。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "manaweaving_altar",
+        "location": "magichem:manaweaving/experience_bottle_waste"
+      }
+    ]
+  },
+  "Rarefied Waste": {
+    "index": "1213",
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "精炼废料"
+      },
+      {
+        "type": "item",
+        "location": "magichem:rarefied_waste",
+        "scale": 2
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "由地震精炼器减少的一部分污垢变成了"
+          },
+          {
+            "text": "精炼废料",
+            "color": "dark_purple"
+          },
+          {
+            "text": "，而不是炼金废料。\n\n精炼废料不显示其同类材料的任何特性。相反，它可以在任何能够蒸馏的炼金设备中处理，以产生一个随机的混合物。\n\n通过蒸馏精炼废料较大可能生成较低等级的混合物。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "manaweaving_altar",
+        "location": "magichem:manaweaving/temp_actuator_earth"
+      }
+    ]
+  },
+  "Academic Slurry": {
+    "index": 1500,
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "学术浆液"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "某些炼金过程需要知识作为一种试剂。与直接从炼金术士的思维中获取不同，这些过程使用"
+          },
+          {
+            "text": "学术浆液",
+            "color": "dark_purple"
+          },
+          {
+            "text": "。\n\n学术浆液可以被视为“液体经验”。有几种方法可以制造学术浆液，详细内容请参阅奥秘法籍中的其他地方。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "manaweaving_altar",
+        "location": "magichem:manaweaving/experience_exchanger"
+      }
+    ]
+  },
+  "Experience Exchanger": {
+    "index": 1510,
+    "category": "magichem",
+    "sections": [
+      {
+        "type": "title",
+        "value": "经验交换器"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "经验交换器是一种奇妙的装置，它将储存在"
+          },
+          {
+            "text": "记忆水晶",
+            "color": "dark_purple"
+          },
+          {
+            "text": "中的经验转化为"
+          },
+          {
+            "text": "学术浆液",
+            "color": "dark_purple"
+          },
+          {
+            "text": "。它必须放置在一个"
+          },
+          {
+            "text": "装满液体的瓮",
+            "color": "dark_purple"
+          },
+          {
+            "text": "（或另一个液体储存容器）上。\n\n当手持着一个记忆水晶激活经验交换器时，会插入水晶，而手是空的时则会移除水晶。\n\n如果记忆水晶处于获取经验模式，那么经验交换器将从装满液体的瓮中提取学术浆液，并将其存储到记忆水晶中。\n\n如果记忆水晶处于返回经验模式，那么经验交换器将从记忆水晶中提取经验，并将其作为学术浆液存入装满液体的瓮中。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "manaweaving_altar",
+        "location": "magichem:manaweaving/experience_exchanger"
+      },
+      {
+        "type": "manaweaving_altar",
+        "location": "mna:manaweaving/crystal_of_memories"
+      },
+      {
+        "type": "manaweaving_altar",
+        "location": "mna:fluid_jug"
+      }
+    ]
+  },
+  "version": "0.3.5"
+}
